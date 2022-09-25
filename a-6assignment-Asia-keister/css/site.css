@@ -3,9 +3,9 @@ body { background-color: gray; font-family: Helvetica, Arial, sans-serif; }
    th, td{ padding: 4px;}
 h1, h2, h3, h4, h5, h6 { font-family: Georgia, serif; }
 #nav { background-color: #dddddd; }
-a, a:link { #008b14; }
-a:link { #008b14; }
-a:visited { #649a00; }
-a:hover { #00638b; }
-a:active { #008b14; } 
-a:focus { #00638b; }
+a, a:link { color:#008b14; }
+a:link { color:#008b14; }
+a:visited { color:#649a00; }
+a:hover { color:#00638b; }
+a:active { color:#008b14; } 
+a:focus { color:#00638b; }
