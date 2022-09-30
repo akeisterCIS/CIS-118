@@ -8,7 +8,7 @@ body{
  p, li{
  	line-height: 1.5em;
  }
-  
+  h1 { text-shadow: 2px 2px 0px orange; }
 /* ADD EXAMPLES BELOW */
 /*Add color name*/
 .black { color: black ; /* this is the default color */ }
