@@ -22,6 +22,12 @@ body{
 
 
 /*Add color hex value */
+#hex .red{ color: #ff0000 ; }
+#hex .green{ color:#00ff00 ; }
+#hex .blue{ color:#0000ff ; }
+#hex .yellow{ color:#ffff00  ; }
+#hex .magenta{ color:#ff00ff  ; }
+#hex .cyan{ color:#00ffff  ; }
 
 
 /*Add color rgb value*/
