@@ -9,6 +9,8 @@ body{
  	line-height: 1.5em;
  }
   h1 { text-shadow: 2px 2px 0px orange; }
+h1 { text-shadow: 1px 1px 0px white, 2px 2px 0px orange ; }
+
 /* ADD EXAMPLES BELOW */
 /*Add color name*/
 .black { color: black ; /* this is the default color */ }
