@@ -10,4 +10,5 @@ a:hover { color: #00638b; }
 a:active { color: #008b14; } 
 a:focus { color: #00638b; }
 p, li { line-height: 1.25em; }
+<!--The way he described the CSS rule meant he wanted you to use the parent/child relationship and use p>em instead of just em.-->
 em { font-weight: bold;}
