@@ -69,4 +69,5 @@ a:hover { color: #00638b; }
 a:active { color: #008b14; } 
 a:focus { color: #00638b; }
 p, li { line-height: 1.25em; }
+<!-- He wants you to use the parent p and symbol > because if you simply say any em wrapped text then things in tables that  you might not want italicized and bold would also be made bold.-->
 em { font-weight: bold;}
