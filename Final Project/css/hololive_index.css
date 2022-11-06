@@ -1,0 +1,119 @@
+h1{
+text-align: center;
+background-color:#86e5fc;
+font-size: 50px;
+font-family:monospace;
+color:white;
+height:55px;
+}
+
+h2{
+text-align: center;
+background-color:white;
+font-size:40px;
+font-family:monospace;
+}
+
+h3{
+font-family:monospace;
+font-size:30px;
+}
+
+
+
+p{
+font-family:monospace;
+font-size:20px;
+}
+
+#header{
+background-color: cyan;
+height:400px;
+padding: 20px 50px;
+}
+
+#nav{
+text-align:left;
+}
+
+*{
+box-sizing: border-box;
+}
+
+.column{
+float:left;
+width:50%;
+padding:30px;
+}
+
+.row:after{
+content: "";
+display:table;
+clear:both;
+}
+
+
+
+/*CSS List Test for PNGs*/
+#nav{
+padding:20px;
+background-color: transparent;
+}
+
+#nav li{
+display: inline-block;
+position:relative;
+vertical-align:bottom;
+margin-right:25px;
+}
+
+#nav li:last-child{
+margin-right: 0px;
+}
+
+li a{
+display: block;
+width: 300px;
+height: 175px;
+padding:20px;
+padding-top: 20px;
+text-decoration: none;
+border-radius: 10px;
+}
+
+a span{
+font-family:monospace;
+font-size:1.5em;
+position:absolute;
+bottom:5px;
+width:inherit;
+text-align: center;
+color:black;
+}
+
+li a:link, li a:visited, li a:active{
+background-color: #333;
+color: #eee;
+}
+
+li a:hover{
+background-color: #aaa;
+}
+
+.shira a{
+background-image: url(../images/shira.png);
+background-repeat: no-repeat;
+background-position: center 50%;
+}
+
+.gura a{
+background-image: url(../images/gura.png);
+background-repeat: no-repeat;
+background-position: center 50%;
+}
+
+.kobo a{
+background-image: url(../images/kobo.png);
+background-repeat: no-repeat;
+background-position: center 50%;
+}
