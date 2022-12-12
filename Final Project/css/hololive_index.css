@@ -1,10 +1,11 @@
 h1{
-text-align: center;
+text-align:center;
 background-color:#86e5fc;
-font-size: 50px;
+font-size: 43px;
 font-family:monospace;
 color:white;
-height:55px;
+padding:20px;
+text-shadow: 0 2px 1px rgba(0,0,0,0.5);
 }
 
 h2{
@@ -12,11 +13,13 @@ text-align: center;
 background-color:white;
 font-size:40px;
 font-family:monospace;
+text-shadow: 0 2px 1px rgba(0,0,0,0.5);
 }
 
 h3{
 font-family:monospace;
 font-size:30px;
+text-shadow: 0 2px 1px rgba(0,0,0,0.5);
 }
 
 
@@ -26,11 +29,7 @@ font-family:monospace;
 font-size:20px;
 }
 
-#header{
-background-color: cyan;
-height:400px;
-padding: 20px 50px;
-}
+
 
 #nav{
 text-align:left;
@@ -52,6 +51,13 @@ display:table;
 clear:both;
 }
 
+img{
+
+bottom:5px;
+left:10px;
+
+}
+
 
 
 /*CSS List Test for PNGs*/
@@ -65,6 +71,7 @@ display: inline-block;
 position:relative;
 vertical-align:bottom;
 margin-right:25px;
+
 }
 
 #nav li:last-child{
@@ -92,12 +99,12 @@ color:black;
 }
 
 li a:link, li a:visited, li a:active{
-background-color: #333;
+background-color: #86e5fc;
 color: #eee;
 }
 
 li a:hover{
-background-color: #aaa;
+background-color: #daf7fe;
 }
 
 .shira a{
@@ -116,4 +123,14 @@ background-position: center 50%;
 background-image: url(../images/kobo.png);
 background-repeat: no-repeat;
 background-position: center 50%;
+}
+
+
+@media only screen and (max-width: 900px) {
+#header{height:150px;
+}
+
+.column{
+width:100%;
+}
 }
