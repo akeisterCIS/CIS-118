@@ -19,10 +19,6 @@ margin:0;
 display:inline-block;
 width:50%;
 }
-<!--experiment to make the form stop floating-->
-#form {
-clear: both;
-}
 @media screen and (max-width: 32em) {
 body{
 	margin: 0;
