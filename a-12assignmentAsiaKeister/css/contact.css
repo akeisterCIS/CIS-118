@@ -20,7 +20,7 @@ display:inline-block;
 width:50%;
 }
 <!--experiment to make the form stop floating-->
-#container::after {
+#form:after {
 content: "";
 clear: both;
 display: table;
